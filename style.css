@@ -1,12 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;400&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
 body {
+  background: #a2dbfa;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 0;
   overflow: hidden;
   font-family: 'Roboto', sans-serif;
+}
+
+.quiz-container {
+  background: #fff;
+  border-radius: 4.5px;
+  width: 640px;
+  overflow: hidden;
+}
+
+.quiz-header {
+  padding: 4rem;
+}
+
+h2 {
+  padding: 1rem;
+  text-align: center;
+  margin: 0;
+}
+
+ul {
+  list-style-type: 0;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+ul li label {
+  cursor: pointer;
+}
+
+button {
+  background: #39a2db;
+  color: #fff;
+  border: none;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 10px;
+}
+
+button:hover {
+  background: #053742;
+}
+
+button:focus {
+  outline: none;
 }
